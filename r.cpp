@@ -7,5 +7,5 @@ void solve(){
     
 }
 int main(){
-
+    cout << "Hello world";
 }
