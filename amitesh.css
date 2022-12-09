@@ -1,4 +1,4 @@
-/* Alert info */
+
 .alert {
     margin-bottom: 0px;
    }
@@ -35,8 +35,6 @@ background-color: #a668f1;
     background-color: #977CB7;
     border-radius: 12px;
 }
-
-/* SELECT QUANTITY DROPDOWN & ADD TO CART BUTTON HERE  */
 .custom-select{
     width: auto;
 }
@@ -51,8 +49,6 @@ background-color: #a668f1;
     color: #ffffff;
 
 }
-
-/* Similar Items  */
 
 
 .my-footer{
