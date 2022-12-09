@@ -12,7 +12,6 @@ window.onload = function () {
     
     let cctype = null;
     
-    //Mask the Credit Card Number Input
     var cardnumber_mask = new IMask(cardnumber, {
         mask: [
             {
@@ -60,11 +59,7 @@ window.onload = function () {
                 regex: '^(?:5[0678]\\d{0,2}|6304|67\\d{0,2})\\d{0,12}',
                 cardtype: 'maestro'
             },
-            // {
-            //     mask: '0000-0000-0000-0000',
-            //     regex: '^220[0-4]\\d{0,12}',
-            //     cardtype: 'mir'
-            // },
+           
             {
                 mask: '0000 0000 0000 0000',
                 regex: '^4\\d{0,15}',
