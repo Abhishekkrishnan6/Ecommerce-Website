@@ -1,10 +1,4 @@
-/*
-================================================================
-* Template:  	 Oxyy - Login and Register Form Html Templates
-* Written by: 	 Harnish Design - (http://www.harnishdesign.net)
-* Description:   Main Custom Script File
-================================================================
-*/
+
 
 
 (function ($) {
@@ -29,10 +23,6 @@ else if (this.value.length == this.maxLength) {
 });
 
 
-/*---------------------------------------------------
-    YouTube video to autoplay in modal
------------------------------------------------------ */
-// Gets the video src from the data-src on each button
 var $videoSrc;
 $('.video-btn').on('click', function() {
     $videoSrc = $(this).data( "src" );

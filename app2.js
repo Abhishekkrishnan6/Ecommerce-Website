@@ -16,7 +16,6 @@ $('#quantityOfUnicornsForm').submit(function(e) {
 
 
 
-// $('#signUpBtn').modal('hide');
 
                         
 
